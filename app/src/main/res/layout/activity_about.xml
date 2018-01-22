@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    tools:context="com.example.mau.nnaapp.AboutActivity">
+
+    <ImageView
+        android:id="@+id/imgHau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        app:srcCompat="@mipmap/hau" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="156dp"
+        android:layout_marginRight="156dp"
+        app:srcCompat="@mipmap/createdby" />
+
+    <ImageView
+        android:id="@+id/imgTwitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imgHau"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imgHau"
+        android:scaleX="0.4"
+        android:scaleY="0.4"
+        app:srcCompat="@mipmap/twitter" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgHau"
+        android:layout_toLeftOf="@+id/imgHau"
+        android:layout_toStartOf="@+id/imgHau"
+        app:srcCompat="@mipmap/feedback" />
+</android.widget.RelativeLayout>
